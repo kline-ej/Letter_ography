@@ -13,16 +13,18 @@ This first video shows the controls of the board and how they relate to the moni
 This second video shows the full display of characters that can be used, which is the alphabet in their capital form and basic punctuation marks, such as a period, exclamation point, and a question mark.
 
 FILES
-(fonts.v) - holds design for each character in a 5x5 frame
-(chars_rom.v) - holds the .mif file pt.1
-(key_rising_edge.v) - acts as a debounce for the controls
-(frame_writer.v) - responsible for writing each pixel to the frame
-(proj.v) - connects all of the other .v files, or modules, to provide a final function
-(sceen_chars.v) - sets rules and parameters for the writing to the screen
-(sceen_chars_mem.v) -holds the .mif file pt.2
+- (fonts.v) - holds design for each character in a 5x5 frame
+- (chars_rom.v) - holds the .mif file pt.1
+- (key_rising_edge.v) - acts as a debounce for the controls
+- (frame_writer.v) - responsible for writing each pixel to the frame
+- (proj.v) - connects all of the other .v files, or modules, to provide a final function
+- (sceen_chars.v) - sets rules and parameters for the writing to the screen
+- (sceen_chars_mem.v) -holds the .mif file pt.2
 
 Credit to Dr. Peter Jamieson (the next three modules were made by this ECE professor)
 - These modules were used to access control of the screen in order to write to it.
-(vga_driver.v) 
-(vga_frame.v)
-(vga_frame_driver.v)
+- (vga_driver.v) 
+- (vga_frame.v)
+- (vga_frame_driver.v)
+
+With this knowledge, a person can create screen by screen, text only, choose-your-own-adventure game.
